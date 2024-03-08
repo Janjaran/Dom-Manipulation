@@ -1,0 +1,18 @@
+body {
+    background-image: url('lm.jpg');
+}
+
+
+body.dark-mode {
+    background-image: url('dm.jpg'); /* Replace with your dark mode background image */
+    background-size: cover;
+    color: #ffffff; /* Adjust text color for better visibility */
+  }
+
+  .card.dark-mode {
+    background-color: #333333; /* Adjust the card background color for dark mode */
+  }
+
+  .card-header {
+    background-color: rgb(66, 73, 71);
+  }
